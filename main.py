@@ -7,10 +7,10 @@ SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 pygame.display.set_caption("Игра Тир")
-icon = pygame.image.load("/img/AK-47.jpg")
+icon = pygame.image.load("C:/PyCh/project1/English-Words/lesson_3/img/AK-47.jpg")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("/img/target.png")
+target_img = pygame.image.load("C:/PyCh/project1/English-Words/lesson_3/img/target.png")
 target_width = 50
 target_height = 50
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
